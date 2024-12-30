@@ -1,0 +1,30 @@
+.map-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    z-index: 1;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .overlay-section {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .geocoder-container .mapboxgl-ctrl-geocoder {
+    min-width: 100%;
+  }
+  
+  .directions-container {
+    min-width: 100%;
+    height: 250px;
+  }
+  
